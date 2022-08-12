@@ -1,5 +1,5 @@
 import youtube_dl
-
+import asyncio
 
 
 class Logger(object):
@@ -21,7 +21,7 @@ options = {
     "progress_hooks": [my_hook],
 }
 
-def download(url):
+async def download(url):
     with youtube_dl.YoutubeDL(options) as ydl:
         ydl.download([url])
 

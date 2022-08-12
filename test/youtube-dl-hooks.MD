@@ -1,0 +1,1 @@
+I couldn't find any straight forward documentation for implementing youtube-dl's hooks into a webapp or really anything for that matter. I saw some examples with [status], = 'downloading = ... and so on but nothing really official except that one excerpt on 
